@@ -1,9 +1,9 @@
 <script setup>
-import WebSocketComponent from './components/WebSocketComponent.vue'
+import WebSocketComposition from './components/WebSocketComposition.vue'
 </script>
 
 <template>
-  <WebSocketComponent />
+  <WebSocketComposition />
 </template>
 
 <style scoped></style>
