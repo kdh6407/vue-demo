@@ -22,13 +22,3 @@
     <router-view />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'App'
-};
-</script>
-
-<style scoped>
-/* 스타일을 추가하세요 */
-</style>
