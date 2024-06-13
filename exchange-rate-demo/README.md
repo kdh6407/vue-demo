@@ -1,4 +1,4 @@
-## 환율계산기
+# 환율계산기
 
 - [한국수출입은행 오픈API](https://www.koreaexim.go.kr/ir/HPHKIR020M01?apino=2&viewtype=C)
 - 회원가입 후 API key 를 발급받아야 합니다
@@ -33,14 +33,10 @@ export default defineConfig({
 
 1. 변수 연결을 위한 v-bind, v-model 이해하기
 
-- 생명주기 중 컴포넌트 상태 mount 처리하기
+2. 생명주기 중 컴포넌트 활성화(onMounted) 함수 사용
 
-- v-model
+3. API 조회를 위한 fetch 함수 사용하기
+    - 비동기 방식 처리를 위한 async/await 사용
 
-- v-model.number
-
-- v-bind, :
-
-- ref, watch
-
-- onMounted
+4. 반응형 변수를 위한 ref 함수 사용
+    - watch 함수를 통해 ref 변수의 변화 감시하기

@@ -1,6 +1,6 @@
 ## 개발 환경에서 API 설정
 
-- .env 파일에 아래 키값 설정 필요 (VITE_ 는 prefix 임)
+- 프로젝트 루트에 .env 파일을 생성하고 아래 내용(키/값) 설정 필요 (VITE_ 는 prefix 임)
   > VITE_NAVER_API_CLIENT_ID=YOUR_NAVER_API_CLIENT_ID
   VITE_NAVER_API_CLIENT_SECRET=YOUR_NAVER_API_CLIENT_SECRET
 
