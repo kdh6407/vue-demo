@@ -1,0 +1,22 @@
+{
+  "name": "chart-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "draggable-resizable-vue3": "^1.0.94-beta",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  },
+  "packageManager": "yarn@4.3.0"
+}
