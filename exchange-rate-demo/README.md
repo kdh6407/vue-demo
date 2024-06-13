@@ -1,6 +1,6 @@
 ## 환율계산기
 
-- [한국수출입은행 오픈API](https://www.koreaexim.go.kr/ir/HPHKIR020M01?apino=2&viewtype=C&searchselect=&searchword=)
+- [한국수출입은행 오픈API](https://www.koreaexim.go.kr/ir/HPHKIR020M01?apino=2&viewtype=C)
 - 회원가입 후 API key 를 발급받아야 합니다
 
 - 프로젝트 루트에 .env 파일을 생성하고 아래 내용(키/값) 설정 필요 (VITE_ 는 prefix 임)
@@ -21,6 +21,7 @@ export default defineConfig({
       '/api': {
         target: 'https://www.koreaexim.go.kr',
         changeOrigin: true,
+        secure: false, // SSL 인증서 검증 비활성화
         rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
