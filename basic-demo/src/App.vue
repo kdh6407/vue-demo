@@ -6,10 +6,13 @@
           <router-link to="/">메인</router-link>
         </li>
         <li>
-          <router-link to="v-model">VModel</router-link>
+          <router-link to="v-model">v-model</router-link>
         </li>
         <li>
-          <router-link to="v-model-number">VModelNumber</router-link>
+          <router-link to="v-model-number">v-model-number</router-link>
+        </li>
+        <li>
+          <router-link to="infinite-scroll">infinite-scroll</router-link>
         </li>
       </ul>
     </nav>
