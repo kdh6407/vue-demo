@@ -32,7 +32,7 @@
           </b-form-group>
         </b-col>
         <b-col md="6">
-          <b-form-group id="fieldset-1" :description="`KRW ${formatNumber(reversedAmount)} 입니다`"
+          <b-form-group id="fieldset-1" :description="`${selectedCurrency} ${formatNumber(reversedAmount)} 입니다`"
             :label="`KRW to ${selectedCurrency} : 한국 원 (KRW) 👉 ${selectedCurrencyName} 계산합니다`"
             label-for="krw-amount-input" floating class="mt-3">
             <b-form-input id="krw-amount-input" v-model="krwAmountDisplay" trim placeholder="금액을 입력해주세요" type="text"
