@@ -3,12 +3,14 @@ import HelloWorld from '../components/HelloWorld.vue';
 import VModel from '../components/VModel.vue';
 import VModelNumber from '../components/VModelNumber.vue';
 import InfiniteScroll from '../components/InfiniteScroll.vue';
+import DefineModel from '../components/DefineModel.vue';
 
 const routes = [
     { path: '/', component: HelloWorld },
     { path: '/v-model', component: VModel, meta: { title: 'v-model 예제' } },
     { path: '/v-model-number', component: VModelNumber, meta: { title: 'v-model.number 예제' } },
     { path: '/infinite-scroll', component: InfiniteScroll, meta: { title: '무한 스크롤 예제' } },
+    { path: '/define-model', component: DefineModel, meta: { title: '컴포넌트 간 데이터 교환 예제' } },
 ];
 
 const router = createRouter({

@@ -14,6 +14,9 @@
         <li>
           <router-link to="infinite-scroll">infinite-scroll</router-link>
         </li>
+        <li>
+          <router-link to="define-model">define-model</router-link>
+        </li>
       </ul>
     </nav>
     <router-view />

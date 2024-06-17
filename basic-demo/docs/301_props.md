@@ -77,12 +77,12 @@ const model = defineModel()
   <div>
     <h1>책 제목: {{ bookTitle }}</h1>
     <h2>책 저자: {{ bookAuthor }}</h2>
-    <MyComponent v-model:title="bookTitle" v-model:author="bookAuthor" />
+    <ChildDefineModel v-model:title="bookTitle" v-model:author="bookAuthor" />
   </div>
 </template>
 <script setup>
 import { ref } from 'vue';
-import MyComponent from './components/MyComponent.vue';
+import ChildDefineModel from './ChildDefineModel.vue';
 
 const bookTitle = ref('');
 const bookAuthor = ref('');
@@ -93,11 +93,15 @@ const bookAuthor = ref('');
 <template>
   <div>
     <label for="title">책 제목 입력:</label>
-    <input id="title" v-model="model" />
+    <input id="title" v-model="title" />
+
+    <label for="author">책 저자 입력:</label>
+    <input id="author" v-model="author" />
   </div>
 </template>
 
 <script setup>
-const model = defineModel()
+const title = defineModel('title', { required: true }); //반드시 필요한 값을 지정할때
+const author = defineModel('author');
 </script>
 ```
