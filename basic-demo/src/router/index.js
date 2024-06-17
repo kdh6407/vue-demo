@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HelloWorld from '../components/HelloWorld.vue';
 import VModel from '../components/VModel.vue';
 import VModelNumber from '../components/VModelNumber.vue';
+import InfiniteScroll from '../components/InfiniteScroll.vue';
 
 const routes = [
     { path: '/', component: HelloWorld },
