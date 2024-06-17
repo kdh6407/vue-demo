@@ -28,12 +28,14 @@
 
 - ### [props 개념](./docs/301_props.md)
 
-- ### [프롭 드릴링의 문제점과 provide,inject 활용](./docs/302_provide,inject.md)
+- ### [자식컴포넌트의 이벤트를 부모컴포넌트에서 처리하기](./docs/302_emit.md)
 
-- ### [자식컴포넌트의 이벤트를 부모컴포넌트에서 처리하기](./docs/303_emit.md)
+- ### [v-model로 부모,자식 양방향 데이터 교환하기](./docs/303_vmodel_exchange.md)
 
-- ### [v-model로 부모,자식 양방향 데이터 교환하기](./docs/304_vmodel_exchange.md)
+- ### [Vue 3.4 버전 이후 props/emit 교환](./docs/304_vmodel_exchange_after3.4.md)
 
-- ### [자식 컴포넌트에 내용을 삽입하는 Slot](./docs/305_slot.md)
+- ### [프롭 드릴링의 문제점과 provide,inject 활용](./docs/305_provide,inject.md)
 
-- ### [SPA 링크 처리를 위한 라우터 활용](https://github.com/durumee/vue-demo/tree/main/route-demo)
+- ### [자식 컴포넌트에 내용을 삽입하는 Slot](./docs/306_slot.md)
+
+- ### [SPA 링크 처리를 위한 라우터 활용](https://github.com/durumee/vue-demo/blob/main/route-demo/README.md)
