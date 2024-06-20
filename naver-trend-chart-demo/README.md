@@ -37,4 +37,12 @@ export default defineConfig({
 
 - 차트 <https://vue-chartjs.org/>
 
+  - 새 프로젝트 생성 시에는 아래 모듈 추가 필요
+
+    > yarn add vue-chartjs chart.js
+
 - 드래그 및 리사이즈 컴포넌트 <https://draggable-resizable-vue3.netlify.app/>
+
+  - 새 프로젝트 생성 시에는 아래 모듈 추가 필요
+
+    > yarn add draggable-resizable-vue3

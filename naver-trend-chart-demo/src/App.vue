@@ -36,7 +36,7 @@ const getLastDateOfMonth = (year, month) => {
 // 초기 값 설정
 const today = new Date();
 const endDate = ref(today.toISOString().slice(0, 7)); // YYYY-MM
-const startDate = ref(getPastDate(3).slice(0, 7)); // YYYY-MM
+const startDate = ref(getPastDate(12).slice(0, 7)); // YYYY-MM
 const datacollection = ref(null);
 
 const fetchData = async () => {
